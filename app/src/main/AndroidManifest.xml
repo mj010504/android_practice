@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name="com.example.androidpractice.PracticeApplication"
+        android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -12,7 +14,7 @@
         android:theme="@style/Theme.AndroidPractice">
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.main.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.AndroidPractice">
             <intent-filter>

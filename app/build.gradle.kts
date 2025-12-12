@@ -5,9 +5,7 @@ plugins {
 android {
     namespace = "com.example.androidpractice"
 
-    compileSdk {
-        version = release(36)
-    }
+    compileSdk = 36
 
     defaultConfig {
         targetSdk = 36
@@ -24,4 +22,6 @@ android {
 
 dependencies {
     implementation(projects.core.domain)
+
+    implementation(projects.feature.main)
 }

@@ -1,6 +1,6 @@
 plugins {
     id("practice.android.library")
-    id("practice.android.hilt")
+    id("practice.android.compose")
 }
 
 android {

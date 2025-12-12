@@ -10,10 +10,6 @@ internal fun Project.configureComposeAndroid() {
     }
 
     androidExtension.apply {
-        composeOptions {
-            kotlinCompilerExtensionVersion = "1.5.15"
-        }
-
         buildFeatures.apply {
             compose = true
         }
