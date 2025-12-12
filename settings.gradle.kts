@@ -34,3 +34,4 @@ include(":feature:main")
 
 include(":feature:geo")
 include(":core:data")
+include(":core:navigation")

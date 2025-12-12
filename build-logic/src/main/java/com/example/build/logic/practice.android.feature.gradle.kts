@@ -23,7 +23,8 @@ configureHiltAndroid()
 dependencies {
     implementation(project(":core:designsystem"))
     implementation(project(":core:domain"))
-    
+    implementation(project(":core:navigation"))
+
     implementation(findLibrary("hilt-navigation-compose").get())
     implementation(findLibrary("androidx.compose.navigation").get())
 
